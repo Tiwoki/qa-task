@@ -20,6 +20,7 @@ public class BackofficeLoginTest {
         this.driver = new ChromeDriver();
     }
 
+
     @AfterTest
     public void testTearDown(){
         driver.close();
